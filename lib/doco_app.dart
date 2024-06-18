@@ -14,7 +14,6 @@ class DocoApp extends StatelessWidget {
       designSize: const Size(375, 812),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-          title: 'Doco',
           theme: ThemeData(
             primaryColor: MyColors.mainGreen,
           ),

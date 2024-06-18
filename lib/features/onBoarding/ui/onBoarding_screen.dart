@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:forfun/core/helpers/extension.dart';
-import 'package:forfun/core/routes/routes.dart';
 import 'package:forfun/features/onBoarding/ui/widgets/button.dart';
 import 'package:forfun/features/onBoarding/ui/widgets/logoWidget.dart';
 import 'package:forfun/features/onBoarding/ui/widgets/onBoardingPic.dart';
