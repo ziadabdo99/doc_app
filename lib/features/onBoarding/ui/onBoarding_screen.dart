@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:forfun/core/routes/routes.dart';
 import 'package:forfun/features/onBoarding/ui/widgets/button.dart';
 import 'package:forfun/features/onBoarding/ui/widgets/logoWidget.dart';
 import 'package:forfun/features/onBoarding/ui/widgets/onBoardingPic.dart';
@@ -23,7 +24,9 @@ class OnBoardingScreen extends StatelessWidget {
               SizedBox(height: 50.h),
               TextWidget(),
               SizedBox(height: 60.h),
-              const Button()
+               Button(
+                onPressed: ()=> Navigator.pushNamed(context,Routes.login),
+              )
              
             ],
                     ),
